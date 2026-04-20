@@ -17,8 +17,9 @@ from data_loader import (
     build_interactions, print_stats,
     ARMS, N_ARMS, STATE_NAMES, N_STATES
 )
-from agents import LinUCBAgent, QLearningAgent, RandomAgent, PopularityAgent
-
+from agents.agents import LinUCBAgent, QLearningAgent, RandomAgent, PopularityAgent
+from agents.orchestrator import OrchestratorAgent
+from agents.diversity_tool import GenreDiversityTool
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
